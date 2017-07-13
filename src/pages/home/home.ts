@@ -16,7 +16,7 @@ export class HomePage {
       zoom: 'no'
     }
 
-    const browser = this.inAppBrowser.create(url, 'system', options);
+    const browser = this.inAppBrowser.create('https://ionicframework.com/');
   }
 
 
